@@ -1,0 +1,84 @@
+How to Find the Core User and Core Char Files
+============================================
+
+Use these steps to find the Core_User and Core_Char files for an EVE Online character.
+
+1. Open the EVE Settings Folder
+-------------------------------
+
+Open the following folder on your computer:
+
+C:\Users\"your user here"\AppData\Local\CCP\EVE\c_ccp_eve_tq_tranquility\settings_Default
+
+Replace "your user here" with your Windows username.
+
+If your EVE settings folder is stored somewhere else, open the folder that contains your settings_Default files.
+
+2. Load the Character You Want to Identify
+------------------------------------------
+
+Open the EVE Online client.
+
+Log in to the character you want to use as the reference character.
+
+Let the character fully load into the game.
+
+Wait about 5 seconds after the character finishes loading.
+
+3. Close the EVE Client
+-----------------------
+
+Completely close the EVE Online client.
+
+Make sure the client is fully shut down before continuing.
+
+4. Sort the Settings Files by Most Recent
+-----------------------------------------
+
+Go back to the settings_Default folder.
+
+Sort the files by Date Modified so the most recently changed files appear at the top.
+
+5. Find the Core User and Core Char Files
+-----------------------------------------
+
+Look for the most recently modified files with names similar to these examples:
+
+core_user_11111111.dat
+core_char_1111111111.dat
+
+The numbers will be different for each account and character.
+
+The core_user file is tied to the user/account settings.
+
+The core_char file is tied to the specific character settings.
+
+6. Write Down the File Names
+----------------------------
+
+Open Notepad or another text editor.
+
+Write down the character name and the matching file names.
+
+Example:
+
+Character Name: Example Character
+Core User File: core_user_11111111.dat
+Core Char File: core_char_1111111111.dat
+
+7. Repeat for Other Characters
+------------------------------
+
+Repeat the same process for each character you want to identify.
+
+To find the files for another character:
+
+1. Open the EVE client.
+2. Log in to that character.
+3. Wait for the character to fully load.
+4. Wait about 5 seconds.
+5. Close the client completely.
+6. Sort the settings_Default folder by most recent.
+7. Write down the matching core_user and core_char files.
+
+Use this process for both the character you want to copy settings from and the characters you want to copy settings to.
